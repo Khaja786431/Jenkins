@@ -3,19 +3,27 @@ agents any
 stages{
 stage("Build")
 {
+steps{
 echo "Build pipeline successfully executed...."
+}
 }
 stage("Deploy")
 {
+steps{
 echo "Deploy pipeline successfully executed...."
+}
 }
 stage("Test")
 {
+steps{
 echo "Test pipeline successfully executed...."
+}
 }
 stage("Release")
 {
+steps{
 echo "Release pipeline successfully executed...."
+}
 }
 }
 }
